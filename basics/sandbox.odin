@@ -9,6 +9,7 @@ fmt.printf("\nHello %\n", read_configuration("helo", Never{}));
 config, err := reading_configuration("text.json", "url");
 fmt.println(config)
 fmt.println(err)
+arraysfunc()
 
 
 
