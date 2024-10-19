@@ -1,0 +1,5 @@
+[
+	{ "text": "hello world", "bold": false, "italic": true },
+	{ "text": "hello world 1", "bold": true, "italic": true },
+	{ "text": "hello world 2", "bold": false, "italic": false }
+]
