@@ -19,4 +19,12 @@ arraysfunc :: proc() {
     //swizzle 
     vector2d:: [2]f32
     vec2D_pos :vector2d
+
+	// Dynamic Array 
+	dyn_array: [dynamic]int
+
+	// add to dynamic array
+	append(&dyn_array, 2)
+
+	delete(dyn_array)
 }
